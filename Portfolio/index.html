@@ -1,45 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deepak Kumar | MERN Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
-    <header>
-        <div class="container">
-            <div>
-              <h1>Deepak Kumar</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-        
-        </div>  
-    </header>
 
-    <div class="hero">
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div>
+        <h1>Deepak Kumar</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero + Profile Image Section -->
+  <section class="hero-section-wrapper">
+    <div class="container hero-flex">
+      
+      <!-- Hero Text -->
+      <div class="hero-text">
         <h1>MERN Stack Developer</h1>
         <h3>Hi, I am Deepak Kumar</h3>
-        <br>
         <p>I am a Full Stack Web Developer with expertise in the MERN stack. I create dynamic and responsive web applications that provide seamless user experiences.</p>
-        <br>
-        <button>View my Projects</button>
+        <button type="button" onclick="location.href='#projects'">View my Projects</button>
+      </div>
+
+      <!-- Profile Image -->
+      <div class="hero-image">
+        <img src="https://picsum.photos/200" alt="Deepak Kumar's Profile Picture" />
+      </div>
+
     </div>
+  </section>
 
-    <div class="profileimage">
-        <img src="https://picsum.photos/200" alt="Profile Image">
-
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>My Services</h2>
+      <div class="service">
+        <h3>Web Development</h3>
+        <p>I build responsive and user-friendly websites using the latest technologies.</p>
+      </div>
+      <div class="service">
+        <h3>App Development</h3>
+        <p>I develop mobile applications that are fast, reliable, and easy to use.</p>
+      </div>
+      <div class="service">
+        <h3>UI/UX Design</h3>
+        <p>I design intuitive user interfaces that enhance user experience.</p>
+      </div>
     </div>
+  </section>
 
-    
+  <!-- Placeholder Sections -->
+  <section id="projects" class="projects container">
+    <h2>My Projects</h2>
+    <p>Coming soon...</p>
+  </section>
+
+  <section id="skills" class="skills container">
+    <h2>My Skills</h2>
+    <p>Coming soon...</p>
+  </section>
+
+  <section id="contact" class="contact container">
+    <h2>Contact Me</h2>
+    <p>Coming soon...</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Deepak Kumar. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
