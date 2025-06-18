@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Tags</h1>
+    <form action="serverFile"  method="post">
+        <!-- <p><input type="text" value="Deepak" required autofocus ></p> -->
+        <!-- <p><input type="text" value="Deepak" readonly ></p> -->
+        <!-- <p><input type="text" value="Deepak" disabled ></p> -->
+        <p><input type="text"  placeholder="Enter your name" required></p>
+        <button>Submit</button>
+        <input type="submit" value="Submit">
+        <input type="button" value="Submit">
+        <input type="image" src="" alt="Submit Image">
+    </form>
+
+    <fieldset>
+        <legend>Login Form</legend>
+        <form action="">
+            <p>
+                <input type="email" placeholder="Enter your email" required>
+            </p>
+            <p>
+                <input type="password" placeholder="Enter your password" required>
+            </p>
+            <button>Login</button>
+        </form>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Registration Form</legend>
+        <form action="">
+            <p>
+                <input type="text" placeholder="Enter your name" required>
+            <p>
+                <input type="email" placeholder="Enter your email" required>
+            </p>
+            <p>
+                <input type="password" placeholder="Enter your password" required>
+            </p>
+            <p>DOB: <input type="date"></p>
+            <p>
+                <input type="checkbox" checked>MERN Stack 
+                <input type="checkbox">MEAN Stack
+                <input type="checkbox">JAVA Full Stack
+            </p>
+            <p>
+                <input type="radio" name="batch" checked> Morning batch
+                <input type="radio" name="batch"> Evening batch
+            </p>
+            <p>
+                <select>
+                    <option value="1">BE</option>
+                    <option value="2" selected>BTech</option>
+                    <option value="3">MBA</option>
+                </select>
+            </p>
+            <p>
+                <input type="file" accept=".jpg, .png, .jpeg, .gif" required>
+            </p>
+    
+            <p>
+                <input type="color" value="#ff7777" required>
+            </p>
+            <p>
+                <textarea placeholder="About Me" rows="4" cols="50" required></textarea>
+            </p>
+            <p>
+            <select name="city" id="">
+                <optgroup label="India">
+                    <option value="1">Delhi</option>
+                <option value="2">Mumbai</option>
+                <option value="3" selected>Chennai</option>
+                <option value="4">Kolkata</option>
+                <option value="5">Bangalore</option>
+                </optgroup>
+
+                <optgroup label="USA">
+                    <option value="6">New York</option>
+                    <option value="7">Los Angeles</option>
+                    <option value="8">Chicago</option>
+
+                </optgroup>
+                
+            </select>
+            </p>
+
+            <p>
+                <label for="terms">
+                    <input type="checkbox" id="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </p>
+            <p>
+                <input list="country">
+                <datalist id="country">
+                    <option value="India">
+                    <option value="USA">
+                    <option value="Canada">
+                    <option value="Australia">
+                    <option value="UK">
+                </datalist>        
+            </p>
+            
+            <button>Register</button>
+            <input type="reset" value="Reset">
+        </form>
+    </fieldset>
+
+
+    
+</body>
+</html>
