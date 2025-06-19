@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Images and Multimedia</h1>
+    <div id="menu">
+        <a href="#audioSection">Audio</a>
+        <a href="#videoSection">Video</a>
+
+    </div>
+
+    <h2>Images</h2>
+    <img src="images/sample.jpg" alt="Sample Image" width="310" height="210">
+    <figure>
+        <img src="images/sample1.jpg" alt="Sample1 image" width="310" height="210">
+        <figcaption>caption for the image</figcaption>
+    </figure>
+
+    <h2 id="audioSection">Audio Playlists</h2>
+    <audio controls>
+        <source src="audio/sample.mp3" type="audio/mpeg">
+    </audio>
+
+    <h2 id="videoSection">Video Playlists</h2>
+    <video width="310" height="210" controls>
+        <source src="video/sample.mp4" type="video/mp4">
+        <track kind="subtitles" src="video/sample.vtt" srclang="en" label="English"/>
+        <track kind="subtitles" src="video/sample.vtt" srclang="in" label="Hindi"/>
+    </video>
+    <video width="310" height="210" autoplay loop muted>
+        <source src="video/sample1.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
