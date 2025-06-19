@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            display: inline;
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            background-color: lightcoral;
+            color: white;
+            border-radius: 5px;
+        }
+        .flex {
+            background-color: lightgray;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 10px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            background-color: lightgreen;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Display Property</h1>
+
+    <h2>inline and inline-block</h2>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+    </ul>
+
+    <hr>
+    <h2>Flexbox</h2>
+    <div class="flex">
+        <div>Child1</div>
+        <div>Child2</div>
+        <div>Child3</div>   
+        <div>Child4</div>
+        <div>Child5</div>
+        <div>Child6</div>
+    </div>
+    <hr>
+    <h2>Grid</h2>
+    <div class="grid">
+        <div>Child1</div>
+        <div>Child2</div>
+        <div>Child3</div>   
+        <div>Child4</div>
+        <div>Child5</div>
+        <div>Child6</div>
+    </div>
+    
+</body>
+</html>
