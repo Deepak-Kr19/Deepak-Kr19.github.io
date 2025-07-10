@@ -40,6 +40,7 @@ fs.rename("myfile.txt", "newfile.txt", (err) => {
 });
 */
 
+// Deleting a file
 fs.unlink("newfile.txt", (err) => {
     if (err) {
         console.error("Error deleting file:", err);

@@ -1,3 +1,6 @@
+// This is a simple Node.js application that creates an HTTP server
+// that listens on port 3000 and responds with "Hello, World!" to any request
+
 import http from 'http';
 
 const server = http.createServer((req, res) => {

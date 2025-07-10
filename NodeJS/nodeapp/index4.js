@@ -1,3 +1,5 @@
+// This is a simple Node.js application that creates an Express server
+// that listens on port 8080 and handles various HTTP methods and routes.
 import express from "express";
 
 const app = express();
